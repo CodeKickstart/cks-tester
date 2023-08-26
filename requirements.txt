@@ -1,0 +1,2 @@
+
+code_transformer @ git+ssh://git@github.com/CodeKickstart/CodeTransformer.git@main#egg=code_transformer

@@ -1,0 +1,17 @@
+
+{
+  "__CODE_BLOCK": "base",
+  "ops_pipeline": [
+	{
+	  "remove": {
+		"filter": "[*]"
+	  }
+	},
+	{
+	  "copy": {
+		"filter": "~[__*]|~[.DS_Store, .gitignore]"
+	  }
+	}
+  ]
+}
+		
