@@ -1,6 +1,5 @@
 {
     "__PHASE_MARKERS": [
-        "base",
-        "env"
+        "phase1"
     ]
 }
