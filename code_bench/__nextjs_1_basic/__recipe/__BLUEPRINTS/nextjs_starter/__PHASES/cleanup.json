@@ -1,0 +1,12 @@
+{
+  "__DEPENDS_ON": [
+	"base_code"
+  ],
+  "ops_pipeline": [
+	{
+	  "remove": {
+		"filter": "[*]|[__*]"
+	  }
+	}
+  ]
+}

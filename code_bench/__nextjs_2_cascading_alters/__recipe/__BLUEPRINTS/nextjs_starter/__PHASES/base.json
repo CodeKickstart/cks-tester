@@ -1,0 +1,52 @@
+{
+  "__CODE_BLOCK": "base_code_block",
+  "ops_pipeline": [
+	{
+	  "remove": {
+		"filter": "[*]"
+	  }
+	},
+	{
+	  "copy": {
+		"filter": "~[__*]|~[.DS_Store, .gitignore]"
+	  }
+	},
+	{
+	  "alter": {
+		"locator": [
+		  "/__a1",
+		  "/components/home-page/__transform_2",
+		  "/components/layout/__transform_3"
+		]
+	  }
+	},
+	{
+	  "alter": {
+		"locator": [
+		  "/components/__recast"
+		]
+	  }
+	},
+	{
+	  "alter": {
+		"locator": [
+		  "/pages/__pick"
+		]
+	  }
+	},
+	{
+	  "alter": {
+		"locator": [
+		  "/pages/__recast"
+		]
+	  }
+	},
+	{
+	  "alter": {
+		"locator": [
+		  "/components/__pick"
+		]
+	  }
+	}
+  ]
+}

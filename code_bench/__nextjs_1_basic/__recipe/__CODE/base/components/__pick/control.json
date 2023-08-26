@@ -1,0 +1,28 @@
+[
+  {
+	"op": "pick",
+	"directives": {
+	  "token_id": "base.id_fixed_pages",
+	  "options": [
+		{
+		  "rel_paths": [
+			"contact"
+		  ],
+		  "sift": "contact"
+		},
+		{
+		  "rel_paths": [
+			"posts"
+		  ],
+		  "sift": "posts"
+		},
+		{
+		  "rel_paths": [
+			"about"
+		  ],
+		  "sift": "about"
+		}
+	  ]
+	}
+  }
+]

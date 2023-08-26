@@ -1,0 +1,15 @@
+{
+  "__CODE_BLOCK": "base_code",
+  "ops_pipeline": [
+	{
+	  "remove": {
+		"filter": "[*]"
+	  }
+	},
+	{
+	  "copy": {
+		"filter": "[__*]"
+	  }
+	}
+  ]
+}
